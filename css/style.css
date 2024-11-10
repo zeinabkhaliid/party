@@ -1,0 +1,236 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+    box-sizing: border-box;
+}
+/* fontFamily */
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url(../font/alfont_com_AlFont_com_Segoe.UI_DownloadSoftware.iR_\ \(1\).ttf);
+}
+/* Home */
+#Home {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imges/events-heavenly-header.jpg);
+    color: white;
+    width: 100%;
+    height: 48.25rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* side */
+.sidebar {
+    background-color: #111;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    color: #818181;
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+}
+
+#homeContent {
+    padding: 1rem;
+    transition: margin-left 0.5s;
+}
+
+#homeContent h2 {
+    text-align: center;
+    padding-top: 12.5rem;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+#homeContent p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sidebar a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.sidebar .closeBtn {
+    top: 0;
+    right: 1.56rem;
+    font-size: 36px;
+    margin-left: 3.13rem;
+    position: absolute;
+}
+
+@media screen and (max-height: 28.13rem) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#sliderDown {
+    margin: 6.25rem auto;
+    width: 50%;
+}
+
+#sliderDown h3 {
+    font-size: 28px;
+    line-height: 34px;
+    background-color: rgb(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    padding: 0.625rem;
+    margin: 0;
+}
+
+#sliderDown p {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #ccc;
+    padding: 0.625rem;
+    display: none;
+    margin-bottom: 0rem;
+}
+
+#sliderDown .first {
+    display: block;
+}
+/* count */
+#Count {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imges/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 20.63rem;
+    color: white;
+}
+/* contact */
+.container {
+    padding: 6.25rem 0rem;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 3.125rem;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+#contactUs {
+    margin-top: 6.25rem;
+}
+
+#contactUs .header h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+#contactUs .header p {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+}
+
+.conInfo h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+}
+
+.conInfo p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    width: 90%;
+}
+
+.icons {
+    margin-top: 3.125rem;
+    text-align: center;
+}
+.icons p{
+    margin-bottom: 2.19rem;
+}
+.icons i{
+    color: #777;
+    margin-right: 1.25rem;
+}
+.icons .red{
+    color: #D62E33 !important;
+}
+.socialList{
+    color: #777;
+    margin-top: 3.75rem;
+}
+.socialList i{
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 42px;
+    border: 1px solid #999;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0.625rem;
+}
+.socialList i:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+form input , form textarea{
+    border-radius: 0;
+    margin-bottom: 1.25rem;
+} 
+form textarea{
+    height: 12.5rem;
+    resize: vertical;
+}
+form .btn{
+    padding: 0.625rem 1.25rem;
+    background-color: #D62E33;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+form .btn:hover{
+    padding: 0.625rem 1.25rem;
+    background-color: #D62E33;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+#chars {
+    color: #D62E33;
+    font-size: 20px;
+}
